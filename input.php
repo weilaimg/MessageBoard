@@ -24,11 +24,11 @@ if(!$con)
 	mysql_select_db("liuyan",$con);
 	$sql="CREATE TABLE Liuyan
 	(
-	name varchar(20),
-	email varchar(50),
-	test varchar(500),
-	time1 varchar(25)
-	)";
+	name varchar(20) CHARSET UTF8,
+	email varchar(50)CHARSET UTF8,
+	test varchar(500) CHARSET UTF8,
+	time1 varchar(25) CHARSET UTF8
+	)CHARSET UTF8";
 	mysql_query($sql,$con);
 }
 
