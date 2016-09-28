@@ -28,7 +28,7 @@ if(!$con)
 	email varchar(50),
 	test varchar(500),
 	time1 varchar(25)
-	)";
+	)CHARSET UTF8";
 	mysql_query($sql,$con);
 }
 
