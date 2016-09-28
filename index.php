@@ -13,11 +13,9 @@ color:#FF0004;}
 
 <body>
 <?php
-
-echo $time_1;
 $flag=0;
 $yemian="index.php";
-$name=$message="";
+$name=$message=$email="";
 $nameErr=$messageErr=$emailErr="";
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
